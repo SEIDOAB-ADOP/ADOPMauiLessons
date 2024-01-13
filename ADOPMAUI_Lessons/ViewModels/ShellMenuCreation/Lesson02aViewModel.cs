@@ -36,6 +36,7 @@ namespace ADOPMAUI_Lessons.ViewModels
                 new Lesson02aViewModel(typeof(GridDemoPage), "Grid Demo",
                                       "Explore XAML syntax with the Grid"),
 
+                /*
                  // Part 3. XAML Markup Extensions
                 new Lesson02aViewModel(typeof(SharedResourcesPage), "Shared Resources",
                                       "Using resource dictionaries to share resources"),
@@ -43,6 +44,7 @@ namespace ADOPMAUI_Lessons.ViewModels
 
                 new Lesson02aViewModel(typeof(StaticDemoPage), "x:Static Demo",
                                       "Using the x:Static markup extensions"),
+                */
 
                 new Lesson02aViewModel(typeof(TypeDemoPage), "x:Type Demo",
                                       "Associate Buttons with a Type"),
