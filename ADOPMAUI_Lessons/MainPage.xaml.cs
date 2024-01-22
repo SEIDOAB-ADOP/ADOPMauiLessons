@@ -8,8 +8,12 @@ public partial class MainPage : ContentPage
 	{
 		InitializeComponent();
 	}
-
-	private void OnCounterClicked(object sender, EventArgs e)
+    public MainPage(string greetings, string subgreetings):this()
+    {
+		lblGreetings.Text = greetings;
+		lblSubGreetings.Text = subgreetings;
+    }
+    private void OnCounterClicked(object sender, EventArgs e)
 	{
 		count++;
 

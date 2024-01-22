@@ -51,5 +51,15 @@ public partial class AppShell : Shell
             ContentTemplate = new DataTemplate(() => new TabbedColorPage(Colors[2]))
         });
         flyLesson05.Items.Add(aTab);
+
+        var sc = new ShellContent
+        {
+            Title = "MainPage with params",
+            Route = "home2",
+            ContentTemplate = new DataTemplate(() => new MainPage("Hello from Martin", "This is to demonstrate passing parameters"))
+        };
+        this.Items.Add(sc);
+
+
     }
 }
