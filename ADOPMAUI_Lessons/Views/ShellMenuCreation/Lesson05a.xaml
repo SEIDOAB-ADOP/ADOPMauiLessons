@@ -4,7 +4,7 @@
  			 xmlns:viewmodels="clr-namespace:ADOPMAUI_Lessons.ViewModels"
              x:Class="ADOPMAUI_Lessons.Views.Lesson05a"
              Padding="5,0"
-             Title="Lesson 6">
+             Title="Lesson 5">
     <VerticalStackLayout>
         <ListView ItemsSource="{x:Static viewmodels:Lesson05aViewModel.All}"
 			  ItemSelected="OnListViewItemSelected">

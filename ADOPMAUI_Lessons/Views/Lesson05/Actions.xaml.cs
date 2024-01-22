@@ -49,7 +49,7 @@ public partial class Actions : ContentPage
         queryParams.Add("message", $"{message}. Hello from {nameof(Actions)}");
         queryParams.Add("time", $"{time}. Hello from {nameof(Actions)}");
 
-        await Shell.Current.GoToAsync("../alerts", queryParams);
+        await Shell.Current.GoToAsync("//lesson5/hierachial/alerts", queryParams);
     }
 
     private async void Button_Clicked_1(object sender, EventArgs e)

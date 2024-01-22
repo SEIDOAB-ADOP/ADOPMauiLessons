@@ -57,7 +57,7 @@ public partial class Prompts : ContentPage, IQueryAttributable
 
     private async void Button_Clicked_1(object sender, EventArgs e)
     {
-        await Shell.Current.GoToAsync("../alerts");
+        await Shell.Current.GoToAsync("//lesson5/hierachial//alerts");
     }
 
     private async void Button_Clicked_2(object sender, EventArgs e)

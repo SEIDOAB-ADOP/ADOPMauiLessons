@@ -53,12 +53,12 @@ public partial class Alerts : ContentPage
         queryParams.Add("message", $"{message}. Hello from {nameof(Alerts)}");
         queryParams.Add("time", DateTime.Now);  //Note that I pass this as a DateTime not a string 
 
-        await Shell.Current.GoToAsync("../prompts", queryParams);
+        await Shell.Current.GoToAsync("//lesson5/hierachial/prompts", queryParams);
     }
 
     private async void Button_Clicked_1(object sender, EventArgs e)
     {
-        await Shell.Current.GoToAsync("../actions");
+        await Shell.Current.GoToAsync("//lesson5/hierachial/actions");
     }
     private async void Button_Clicked_2(object sender, EventArgs e)
     {

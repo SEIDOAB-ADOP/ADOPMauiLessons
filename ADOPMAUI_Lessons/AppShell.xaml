@@ -36,12 +36,6 @@
                 ContentTemplate="{DataTemplate views:Lesson05a}"
                 Route="hierachial1" />
         </Tab>
-        <Tab Title="Hierarchial navigation">
-            <ShellContent
-                Title="Hierarchial navigation"
-                ContentTemplate="{DataTemplate views:Lesson05a}"
-                Route="hierachial2" />
-        </Tab>
     </FlyoutItem>
     <FlyoutItem x:Name="flyLesson06" Title="Lesson 6" Route="lesson6">
         <Tab Title="ActivityIndicator and ProgressBar">
